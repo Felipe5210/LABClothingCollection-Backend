@@ -34,7 +34,7 @@ namespace LabClothingCollection.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> getAllPesoa(string? status)
+        public async Task<IActionResult> getAllPessoa(string? status)
         {
 
             if (!Enum.TryParse(typeof(StatusEnum), status, true, out var _) && !string.IsNullOrEmpty(status))
