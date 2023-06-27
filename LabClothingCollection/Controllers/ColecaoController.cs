@@ -42,8 +42,8 @@ namespace LabClothingCollection.Api.Controllers
                 return BadRequest("O status especificado é inválido. Valores validos: Ativo e Inativo");
             }
 
-            var test = await _colecaoService.GetAllAsync(status);
-            return Ok(test);
+            var resultado = await _colecaoService.GetAllAsync(status);
+            return Ok(resultado);
         }
 
 
