@@ -28,3 +28,8 @@ A API oferece recursos para gerenciar diferentes aspectos da coleção e modelo 
   + Coloque sua connection string no arquivo appsetting.json localizado na pasta LabClothingCollection.Api.
     
   + Use o comando no terminal dotnet ef database update --startup-project ..\LabClothingCollection\ para fazer a conexão com o banco de dados.
+
+    ![LabClothingCollectionImage3](https://github.com/Felipe5210/LABClothingCollection-Backend/assets/119754214/99eec10c-84e1-45b4-ba94-4477a3426e72)
+
++ Use dotnet run para executar a aplicação.
+
